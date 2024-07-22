@@ -1,0 +1,60 @@
+body{
+     background-image: url(https://scontent.flhe15-1.fna.fbcdn.net/v/t1.6435-9/119102600_931054200638522_3816549781279333260_n.jpg?stp=c0.23.206.206a_dst-jpg_p206x206&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGGtH89DJv_0az9nbu4dSfAsqsfnG5CUuWyqx-cbkJS5U5Y50aHHaT5aZ-yeucOXeHl04vHr9I12uYqh3MEy-Tb&_nc_ohc=utnbYjMVlxgQ7kNvgHHAH0q&_nc_oc=AdgssKQJoWlQjphKFEiA1dtoCFQK5eGb0vCf0tKrTW1kQ75qIuixrhMcs4k81VXDod4&_nc_ht=scontent.flhe15-1.fna&oh=00_AYBSp4GFUum-sXWp7OY1bE7xwEyLjBZIY_s9M-iZ1KX09Q&oe=666D59F8); 
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    /* background-color: hsl(0, 0%, 90%); */
+}
+#myH1{
+    font-size: 4rem;
+    font-family: "Arial", sans-serif;
+    color: black;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 50px;
+    background-color: azure;
+    
+}
+#display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(0, 0%, 30%);
+    text-shadow: 2px 2px 2px hsl(0, 0%, 0.75%);
+    margin-bottom: 25px;
+    
+}
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease ;
+}
+#startBtn{
+    background-color: hsl(115, 100%, 40%);
+}
+#startBtn:hover{
+    background-color: hsl(115, 100%, 30%);
+}
+#stopBtn{
+    background-color: hsl(10, 90%, 50%);
+}
+#stopBtn:hover{
+    background-color: hsl(10, 90%, 40%);
+}
+#resetBtn{
+    background-color: hsl(205, 90%, 60%);
+}
+#resetBtn:hover{
+    background-color: hsl(205, 90%, 50%);
+}
